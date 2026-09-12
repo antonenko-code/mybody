@@ -1,0 +1,29 @@
+# dependencies
+node_modules/
+
+# environment
+.env
+.env.*
+!.env.example
+
+# builds
+dist/
+.next/
+.turbo/
+
+# coverage
+coverage/
+
+# logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+
+# local infrastructure
+docker-data/
